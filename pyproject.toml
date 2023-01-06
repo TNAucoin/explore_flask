@@ -10,6 +10,8 @@ packages = [{include = "explore_flask"}]
 python = "^3.9"
 flask = "^2.2.2"
 connexion = {version = "2.14.1", extras = ["swagger-ui"]}
+flask-marshmallow = {extras = ["sqlalchemy"], version = "^0.14.0"}
+flask-sqlalchemy-stubs = "^0.2"
 
 
 [tool.poetry.group.dev.dependencies]
